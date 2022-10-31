@@ -9,9 +9,6 @@ host='127.0.0.1'
 port='5432'
 database='dvdrental'
 
-# route is used to map a URL with a Python function
-# complete address: ip:port/
-# 127.0.0.1:5000/
 @app.route("/api/unique")
 
 def index():
